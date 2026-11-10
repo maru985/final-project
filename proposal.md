@@ -35,3 +35,15 @@ Minimal Viable Outcome:
 - A working text based adventure game with an introduction, multiple choices, at least two different story paths, and two possible endings. Players will be able to interact with the story and experience different outcomes based on their decisions.
 
 ## Milestones
+- Week 1
+1. Come up with the storyline, characters, and setting.
+2. Create the basic Python program and write the introduction and first story section.
+- Week 2
+1. Create the different story paths using functions and if/else statements.
+2. Add more choices and events that change depending on the player's decisions.
+- Week 3
+1. Add multiple endings and an item collection feature using lists.
+2. Create a replay option so players can experience the story again.
+- Week 4 (Final)
+1. Test the game, fix errors, and make sure all story paths work correctly.
+2. Improve the storytelling and presentation and upload the completed project to GitHub.
