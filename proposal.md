@@ -5,45 +5,41 @@ Fall 2026 Programming Final Project
 https://github.com/maru985/final-project
 
 ## Description
-My final will be an interactive text based adventure game. Players will follow a storyline that changes based on their decisions and will have different endings based on the path they take and the choices they make. 
+My final will be an infinite interactive side scroller game. The player will play as a red panda running through a forest, jumping over obstacles to survive and collect bamboo and fruit.
 
 ## Features
-- Interactive Storyline
-    - The program will introduce a story and allow users to make decisions that determine what happens next.
-    - Python input statements will allow players to enter their choices.
-- Multiple Story Paths
-    - Players will have different options throughout the story that lead to different events and experiences.
-    - If/else statements will be used to create different paths depending on the player's decisions.
-- Inventory or Item Collection
-    - Players will have the option to collect useful items throughout the adventure.
-    - Lists will be used to keep track of the items collected.
-- Replay Feature
-    - Players will be able to restart the story and make different choices to discover other endings.
-    - Loops will be used to allow players to replay the game.
+- Up and down jumping movement
+    - I'll use conditional statements and variables to create proper responses to keyboard inputs
+- Collectibles
+    - I'll create a score variable that increases with the appropriate collisions and a correlating displaying score
+- Side scrolling environment
+    - I'll use variables to keep track of the player and camera position
  
 ## Challenges
-- Learning how to organize a longer interactive story using multiple Python functions.
-- Figuring out how to connect different story paths based on the player's choices.
-- Learning how to use lists to keep track of items collected during the adventure.
-- Making sure the story runs correctly and that every choice leads to the intended outcome.
+- Learning how to incorporate custom assets
+- Programming multiple layers of assets moving across the screen
+- Working collision detection with an appropriate death/collection response
+- Proper jumping and falling physics
 
 ## Outcomes
 Ideal Outcome:
-- A fully functional interactive adventure game with an interesting storyline, multiple paths, collectible items, and at least three different endings. Players will be able to make decisions that affect the story and replay the game to discover different outcomes.
+- A fully functional side scroller with custom themed collectable assets and a decorated background.
 
 Minimal Viable Outcome:
-- A working text based adventure game with an introduction, multiple choices, at least two different story paths, and two possible endings. Players will be able to interact with the story and experience different outcomes based on their decisions.
+- A working side scroller with a basic character moving across the screen and collecting simple shapes.
 
 ## Milestones
 - Week 1
-1. Come up with the storyline, characters, and setting.
-2. Create the basic Python program and write the introduction and first story section.
+    - Create a basic game window and game loop
+    - Implement collision detection and basic up and down movement
 - Week 2
-1. Create the different story paths using functions and if/else statements.
-2. Add more choices and events that change depending on the player's decisions.
+    - Create custom assets
+    - Import custom assets/animations
 - Week 3
-1. Add multiple endings and an item collection feature using lists.
-2. Create a replay option so players can experience the story again.
+    - Program sliding background/camera
+    - Add environmental and background assets
 - Week 4 (Final)
-1. Test the game, fix errors, and make sure all story paths work correctly.
-2. Improve the storytelling and presentation and upload the completed project to GitHub.
+    - Add final design touches (ex. death screen, sound effects)
+    - Test and clean code
+    - Submit final game
+
