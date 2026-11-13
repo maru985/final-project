@@ -1,2 +1,2 @@
 # final-project
-a choose your own adventure game
+an interactive side scroller game
